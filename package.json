@@ -1,0 +1,14 @@
+{
+  "name": "mongodb-clone",
+  "version": "0.0.1",
+  "description": "clone mongodb database from one server to another",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^2.2.4"
+  }
+}
