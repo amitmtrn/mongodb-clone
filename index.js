@@ -46,7 +46,7 @@ function cloneDatabase(collections, srcUrl, destUrl) {
   });
 }
 
-module.export = (src, dest) => {
+module.exports = (src, dest) => {
   getCollections(src)
     .then((collections) => {
       cloneDatabase(collections, src, dest);
